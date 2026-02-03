@@ -10,6 +10,8 @@ This project evaluates core operational trends to resolve the following key inqu
 - What are some limitations of this dataset?
 - What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
 
+ ## [Analysis with interactive dashboard (Excel File Download)](https://github.com/joeyrodriguez-analyst/13-Crowdfunding_ETL-Project_02/raw/main/00_Crowdfunding_Viz.xlsx)
+
 
 
 ## Extract, Tranform, & Load
@@ -27,18 +29,18 @@ Metrics Added
 ## Analysing the Categories and Sub-Categories
 Constructed a multi-dimensional Pivot Table analysis to segment campaign outcomes—Success, Failure, Cancellation, and Live status—by category. This provided a high-level view of performance trends, enabling a comparative analysis of category-specific viability.
 
-![Screenshot of Category Table](https://github.com/joeyrodriguez-analyst/13-Crowdfunding_ETL-Project_02/blob/3ba6eb71b3944d69776335194b04d3888cb926b0/images/image_002-Category.JPG)
+![Screenshot of Category Table](images/image_002-Category.JPG)
 
 Constructed a similar Pivot Table analysis that allows for a more granular look at Sub-Categories with country-specific filters.
-![Screenshot of Sub-Category Table](https://github.com/joeyrodriguez-analyst/13-Crowdfunding_ETL-Project_02/blob/3ba6eb71b3944d69776335194b04d3888cb926b0/images/image_003%20-%20SubCategory.JPG)
+![Screenshot of Sub-Category Table](images/image_003%20-%20SubCategory.JPG)
 
 
 Developed a Time-Series Performance Dashboard to analyze campaign outcomes across fiscal periods. By engineering a pivot table to track outcome counts against creation dates, I established a baseline for historical trend analysis, allowing for a comparative view of success rates filtered by parent category and year
-![Screenshot of Date Created Table](https://github.com/joeyrodriguez-analyst/13-Crowdfunding_ETL-Project_02/blob/3ba6eb71b3944d69776335194b04d3888cb926b0/images/image_004%20-%20Date%20Created.JPG)
+![Screenshot of Date Created Table](images/image_004%20-%20Date%20Created.JPG)
 
 ## Crowfunding Goal Analysis
 Conducted a statistical distribution analysis to determine the correlation between funding targets and project success rates. Developed a structured matrix using complex COUNTIFS() logic to segment projects into 12 distinct goal brackets, ranging from <$1k to >$50k. Calculated localized success, failure, and cancellation probabilities to identify the 'sweet spot' for crowdfunding targets.
-![Screenshot of Goal Outcome Table](https://github.com/joeyrodriguez-analyst/13-Crowdfunding_ETL-Project_02/blob/main/images/image_005%20-%20Goal%20Outcome.JPG)
+![Screenshot of Goal Outcome Table](images/image_005%20-%20Goal%20Outcome.JPG)
 
 ## Analysis Findings
 
