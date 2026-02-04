@@ -23,6 +23,7 @@ Metrics Added
 - Percent Category
 - Percent Sub-Category
 
+![Screenshot of Full Dashboard](images/Project_005.jpg)
 ![Screenshot of Main Table](https://github.com/joeyrodriguez-analyst/13-Crowdfunding_ETL-Project_02/blob/3ba6eb71b3944d69776335194b04d3888cb926b0/images/image_001-Crowdfunding%20Main.JPG)
 
 
